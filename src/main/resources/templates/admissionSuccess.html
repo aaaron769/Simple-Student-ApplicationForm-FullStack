@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title><h1>Minstry of Education United States of America</h1></title>
+</head>
+<body>
+<h1 th:text ="${headerMessage}"> </h1>
+
+<h3> Congra ! your application has submitted </h3>
+<table>
+         <tr>
+             <td> Student Name :</td>
+             <td th:text="${student1.studentName}"> </td>
+         </tr>
+</table>
+<table>
+    <tr>
+        <td> Student Hobby :</td>
+        <td th:text="${student1.studentHobby}"> </td>
+    </tr>
+</table>
+
+
+</body>
+</html>
